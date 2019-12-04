@@ -1,6 +1,5 @@
 /*-----------------------------------------------------------------------------------
 
------------------------------------------------------------------------------------
 
     CSS INDEX
     ===================
@@ -2010,101 +2009,7 @@ p {
 
 
 /*===========================
-       06.PRICING css 
-===========================*/
-
-.single-pricing {
-    padding: 65px 50px 70px;
-}
-
-@media (max-width: 767px) {
-    .single-pricing {
-        padding: 45px 30px 50px;
-    }
-}
-
-.single-pricing .pricing-price .price {
-    font-size: 42px;
-    color: #222;
-    font-family: "Nunito", sans-serif;
-}
-
-.single-pricing .pricing-price .price b {
-    font-weight: 800;
-}
-
-.single-pricing .pricing-price .price .symbol {
-    font-size: 18px;
-    color: #f14836;
-    font-weight: 700;
-    font-family: "Nunito", sans-serif;
-}
-
-.single-pricing .pricing-title {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    justify-content: center;
-    -webkit-justify-content: center;
-    -moz-justify-content: center;
-    border-bottom: 1px solid #dedede4f;
-    padding-bottom: 50px;
-}
-
-.single-pricing .pricing-title .btn {
-    padding: 0 15px;
-    line-height: 25px;
-    border-radius: 50px;
-    background-color: #4bb3f9;
-    color: #fff;
-    font-size: 14px;
-}
-
-.single-pricing .pricing-title .title {
-    font-weight: 600;
-    font-size: 24px;
-    font-family: "Nunito", sans-serif;
-    padding-left: 10px;
-}
-
-.single-pricing .pricing-list ul li {
-    font-size: 14px;
-    color: #798795;
-    margin-top: 20px;
-}
-
-.single-pricing .pricing-btn .main-btn {
-    text-transform: uppercase;
-}
-
-.single-pricing .pricing-btn .main-btn.main-btn-2 {
-    border-color: transparent;
-    color: #222;
-}
-
-.single-pricing.pricing-color-1 .pricing-title .btn {
-    background-color: #4bb3f9;
-}
-
-.single-pricing.pricing-color-2 .pricing-title .btn {
-    background-color: #f14836;
-}
-
-.single-pricing.pricing-color-3 .pricing-title .btn {
-    background-color: #63b85f;
-}
-
-.single-pricing.pricing-active {
-    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.07);
-    -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.07);
-    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.07);
-}
-
-
-/*===========================
-       07.TESTIMONIAL css 
+       06.TESTIMONIAL css 
 ===========================*/
 
 .testimonial-left-content .testimonial-line {
@@ -2276,7 +2181,7 @@ p {
 
 
 /*===========================
-        08.BRAND css 
+        07.BRAND css 
 ===========================*/
 
 .brand-wrapper {
@@ -2297,7 +2202,7 @@ p {
 
 
 /*===========================
-         09.BL0G css 
+         08.NEWSROOM css 
 ===========================*/
 
 .single-blog .blog-image a {
@@ -2366,7 +2271,7 @@ p {
 
 
 /*===========================
-      10.CONTACT  css 
+      09.CONTACT  css 
 ===========================*/
 
 .contact-map iframe {
@@ -2477,7 +2382,7 @@ p {
 
 
 /*===========================
-       11.FOOTER css 
+       10.FOOTER css 
 ===========================*/
 
 .footer-about .text {
@@ -2582,7 +2487,7 @@ p {
 
 
 /*===========================
-      12.PAGE BANNER css 
+      11.PAGE BANNER css 
 ===========================*/
 
 .page-banner {
@@ -2633,7 +2538,7 @@ p {
 
 
 /*===========================
-    13.BL0G DETAILS  css 
+    12.NEWSROOM DETAILS  css 
 ===========================*/
 
 .blog-details-content .details-image img {
