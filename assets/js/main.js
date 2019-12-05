@@ -2,7 +2,7 @@ $(function() {
 
     "use strict";
 
-    //===== Prealoder
+    //===== Preloader
 
     $(window).on('load', function(event) {
         $('.preloader').delay(500).fadeOut(500);
@@ -27,13 +27,13 @@ $(function() {
         filter: '',
         easing: 'swing',
         begin: function() {
-            //I get fired when the animation is starting
+            //Starts when the animation is starting
         },
         end: function() {
-            //I get fired when the animation is ending
+            //Starts when the animation is ending
         },
         scrollChange: function($currentListItem) {
-            //I get fired when you enter a section and I pass the list item of the section
+            //Starts when you enter a section and I pass the list item of the section
         }
     });
 
@@ -239,13 +239,8 @@ $(function() {
         }
     });
 
-
-
-
     //=====  WOW active
 
     new WOW().init();
-
-
 
 });
